@@ -1,5 +1,10 @@
+@font-face {
+    font-family: my-font; 
+    src: url(./assets/monbaiti.ttf);   
+}
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: my-font;  
     display: grid;
     grid-template-columns: 0.2fr 1fr;
     margin: 0; 
@@ -16,4 +21,77 @@ body {
     grid-row:1 /3;
     padding: 50px; 
     padding-top: 20px; 
+    background-color: #ffe52c; 
+}
+
+.header {
+    display: flex; 
+    flex-direction: column;
+    background-color: #faa622;
+    padding: 20px; 
+}
+
+.header_container_1 {
+   display: grid;
+   grid-template-columns: 2fr 1fr;  
+}
+
+.header_sub_container_1_1 {
+    display: flex;
+    gap: 10px; 
+    align-self: center;
+    margin-left: 70px; 
+}
+
+input {
+    width: 1000px; 
+    border-radius: 25px;
+    border: none;
+}
+
+.header_sub_container_1_2 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+#avatar_big {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header_container_2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.header_sub_container_2_1 {
+    display: flex;
+    margin-left: 70px;
+    gap: 20px; 
+}
+
+.header_sub_container_2_2 {
+    display: flex;
+    gap: 50px; 
+}
+
+button {
+    width: 20%; 
+    background-color: #c4d70c;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 24px;  
 }

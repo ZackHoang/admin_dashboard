@@ -14,6 +14,11 @@ body {
     border: 1px solid black;
 }
 
+.svg {
+    width: 30px; 
+    height: 30px; 
+}
+
 .sidebar {
     display: flex; 
     flex-direction: column;
@@ -22,6 +27,14 @@ body {
     padding: 50px; 
     padding-top: 20px; 
     background-color: #ffe52c; 
+}
+
+.sidebar_container_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; 
+    align-items: center;
 }
 
 .header {

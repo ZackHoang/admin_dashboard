@@ -10,9 +10,6 @@ body {
     margin: 0; 
 }   
 
-/* .sidebar,.header,.main {
-    border: 1px solid black;
-} */
 
 .svg {
     width: 30px; 
@@ -83,12 +80,6 @@ input {
     border-radius: 50%;
 }
 
-.avatar_small {
-    width: 10px; 
-    height: 10px;
-    vertical-align: middle;
-    border-radius: 50%;
-}
 
 .header_container_2 {
     display: grid;

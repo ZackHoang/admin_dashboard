@@ -83,6 +83,13 @@ input {
     border-radius: 50%;
 }
 
+.avatar_small {
+    width: 10px; 
+    height: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
 .header_container_2 {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -164,4 +171,27 @@ button {
 .main_container_announcements div > p:nth-child(4) {
     padding-bottom: 10px;
     border-bottom: 2px solid grey;
+}
+
+.main_container_trending {
+    background-color: white;
+    padding: 30px;
+    display: grid;
+    gap: 30px;
+    border-radius: 25px;
+}
+
+.main_container_trending_account {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.user_name {
+    font-weight: bold;
+}
+
+.description {
+    grid-column-start: 2;
 }
